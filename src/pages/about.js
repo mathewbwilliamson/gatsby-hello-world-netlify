@@ -4,8 +4,9 @@ import {Link} from "gatsby";
 
 export default () => (
   <div style={{ color: `teal` }}>
-    <Header headerText='This in the about' />
+    <Header headerText='I am changing this' />
     <Link to="/">Home Page</Link>
     <p>Such wow. Very React.</p>
+    <p>Does this work?</p>
   </div>
 )
